@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+:root {
+  --active-cases: #2E8B57;
+  --todays-cases: #3CB371;
+  --todays-death: #A52A2A;
+  --critical: #FF4500;
+  --recovered: #228B22;
+  --total-deaths: #FF0000;
+  --total-cases: #B8860B;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background: #555;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container > .jpn {
+  margin-top: 10rem;
+}
+
+.ph, .jpn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3rem 0;
+  gap: 1rem;
+}
+
+.country-ph, .country-jpn {
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 0.3em;
+}
+
+.covid-cases-ph, .covid-cases-jp {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.todays-cases, .todays-death, .active-cases, .critical-cases, .total-recovered, .total-cases, .total-deaths {
+  text-align: center;
+  background: #fff;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+}
+
+.todays-cases h3 {
+  color: #fff;
+  width: 100%;
+  padding: .5rem;
+  background: var(--todays-cases);
+  letter-spacing: 0.1em;
+}
+
+.todays-cases div {
+  color: var(--todays-cases);
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.todays-death h3 {
+  color: #fff;
+  width: 100%;
+  padding: .5rem;
+  background: var(--todays-death);
+  letter-spacing: 0.1em;
+}
+
+.todays-death div {
+  color: var(--todays-death);
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.active-cases h3 {
+  color: #fff;
+  width: 100%;
+  padding: .5rem;
+  background: var(--active-cases);
+  letter-spacing: 0.1em;
+}
+
+.active-cases div {
+  color: var(--active-cases);
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.critical-cases h3 {
+  color: #fff;
+  width: 100%;
+  padding: .5rem;
+  background: var(--critical);
+  letter-spacing: 0.1em;
+}
+
+.critical-cases div {
+  color: var(--critical);
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.total-recovered h3 {
+  color: #fff;
+  width: 100%;
+  padding: .5rem;
+  background: var(--recovered);
+  letter-spacing: 0.1em;
+}
+
+.total-recovered div {
+  color: var(--recovered);
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.total-cases h3 {
+  color: #fff;
+  width: 100%;
+  padding: .5rem;
+  background: var(--total-cases);
+  letter-spacing: 0.1em;
+}
+
+.total-cases div {
+  color: var(--total-cases);
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.total-deaths h3 {
+  color: #fff;
+  width: 100%;
+  padding: .5rem;
+  background: var(--total-deaths);
+  letter-spacing: 0.1em;
+}
+
+.total-deaths div {
+  color: var(--total-deaths);
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.footer {
+  color: #fff;
+  padding: 1rem 0;
+  margin-top: 10rem;
+  background: #333;
+}
+
+a {
+  color: #fff;
+  padding: .3rem;
+  border: 1px solid #fff;
+  text-decoration: none;
+}
+
+.footer p {
+  margin: 1rem 0;
+  text-align: center;
+}
+
