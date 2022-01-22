@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap'); /* Roboto Font */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"); /* Bootstrap Icon */
+
 
 :root {
   --active-cases: #2E8B57;
@@ -166,15 +168,44 @@ body {
   background: #333;
 }
 
-a {
+.footer a {
   color: #fff;
-  padding: .3rem;
-  border: 1px solid #fff;
+  padding: .1rem;
   text-decoration: none;
 }
 
 .footer p {
   margin: 1rem 0;
-  text-align: center;
+  text-align: justify;
+  line-height: 1.5rem;
 }
 
+.footer p a {
+  text-decoration: underline;
+}
+
+.footer .about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.footer .contact {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+@media all and (max-width: 720px) {
+
+  .container {
+    width: 90%;
+  }
+
+  .covid-cases-ph, .covid-cases-jp {
+    flex-direction: column;
+  }
+  
+}
