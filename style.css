@@ -195,7 +195,7 @@ body {
 .footer .contact {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 @media all and (max-width: 720px) {
@@ -206,6 +206,7 @@ body {
 
   .covid-cases-ph, .covid-cases-jp {
     flex-direction: column;
+    gap: 1.2rem;
   }
   
 }
