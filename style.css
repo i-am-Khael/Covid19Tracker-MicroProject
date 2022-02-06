@@ -1,5 +1,6 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap'); /* Roboto Font */
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"); /* Bootstrap Icon */
 
 
 :root {
@@ -57,38 +58,10 @@ body {
   gap: 1rem;
 }
 
-.todays-cases, .todays-death, .active-cases, .critical-cases, .total-recovered, .total-cases, .total-deaths {
+.active-cases, .critical-cases, .total-recovered, .total-cases, .total-deaths {
   text-align: center;
   background: #fff;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
-}
-
-.todays-cases h3 {
-  color: #fff;
-  width: 100%;
-  padding: .5rem;
-  background: var(--todays-cases);
-  letter-spacing: 0.1em;
-}
-
-.todays-cases div {
-  color: var(--todays-cases);
-  width: 100%;
-  margin: 1rem 0;
-}
-
-.todays-death h3 {
-  color: #fff;
-  width: 100%;
-  padding: .5rem;
-  background: var(--todays-death);
-  letter-spacing: 0.1em;
-}
-
-.todays-death div {
-  color: var(--todays-death);
-  width: 100%;
-  margin: 1rem 0;
 }
 
 .active-cases h3 {
