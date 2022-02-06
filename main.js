@@ -1,4 +1,3 @@
-
 const country = document.querySelector('.country-ph > h1');
 const activeCases = document.querySelector('.covid-cases-ph > .active-cases > div > label');
 const criticalCases = document.querySelector('.covid-cases-ph > .critical-cases > div > label');
@@ -12,6 +11,7 @@ const criticalCasesJPN = document.querySelector('.covid-cases-jp > .critical-cas
 const totalRecoveredJPN = document.querySelector('.covid-cases-jp > .total-recovered > div > label');
 const totalDeathsJPN = document.querySelector('.covid-cases-jp > .total-deaths > div > label');
 const totalCasesJPN = document.querySelector('.covid-cases-jp > .total-cases > div > label');
+
 
 
 fetch('https://coronavirus-19-api.herokuapp.com/countries/philippines')
