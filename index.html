@@ -4,122 +4,72 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css">
-  <title>COVID TRACKER FOR PH AND JPN</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <title>Covid 19 Tracker PH</title>
 </head>
 <body>
 
-  <div class="container">
-
-    <div class="ph">
-
-      <div class="country-ph">
-        <h1></h1>
-        <h5>Covid-19 Cases</h5>
-      </div>
-      
-      <div class="covid-cases-ph">
-        
-        <div class="active-cases">
-          <h3>Active Cases</h3>
-          <div>
-            <label></label>
-          </div>
-        </div>
-
-        <div class="critical-cases">
-          <h3>Critical Cases</h3>
-          <div>
-            <label></label>
-          </div>
-        </div>
-        
-        <div class="total-recovered">
-          <h3>Total Recovered</h3>
-          <div>
-            <label></label>
-          </div>
-        </div>
-        
-        <div class="total-deaths">
-          <h3>Total Deaths</h3>
-          <div>
-            <label></label>
-          </div>
-        </div>
-        
-        <div class="total-cases">
-          <h3>Total Cases</h3>
-          <div>
-            <label></label>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    
-    <div class="jpn">
-      <div class="country-jpn">
-        <h1>JAPAN</h1>
-        <h5>Covid-19 Cases</h5>
-      </div>
-      
-      <div class="covid-cases-jp">
-        
-        <div class="active-cases">
-          <h3>Active Cases</h3>
-          <div>
-            <label></label>
-          </div>
-        </div>
-        
-        <div class="critical-cases">
-          <h3>Critical Cases</h3>
-          <div>
-            <label></label>
-          </div>
-        </div>
-
-        <div class="total-recovered">
-          <h3>Total Recovered</h3>
-          <div>
-            <label></label>
-          </div>
-        </div>
-        
-        
-        <div class="total-deaths">
-          <h3>Total Deaths</h3>
-          <div>
-            <label></label>
-          </div>
-        </div>
-        
-        <div class="total-cases">
-          <h3>Total Cases</h3>
-          <div>
-            <label></label>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-  </div>
-  <div class="footer">
+  <main>
     <div class="container">
-      <div class="about">
-        <div>
-          <p>This Covid-19 Tracker is a micro-project created by KHAEL using <a href="https://github.com/javieraviles/covidAPI" target="__blank">Covid-19 API</a></p>
+      <div class="tracker">
+        <div class="searchForm">
+          <input id="searchCountry" type="text" placeholder="Search by Country">
+          <input id="searchBTN" type="button" value="SEARCH">
         </div>
-        <div class="contact">
-          <a href="https://michaelcasals.ml/" target="__blank" disabled><i class="fa-solid fa-globe"></i> PORTFOLIO</a>
-          <a href="https://github.com/i-am-Khael/" target="__blank"><i class="fa-brands fa-github"></i> GITHUB</a>
+        <div class="header">
+          <h2>COVID-19 TRACKER</h2>
+          <h4>Covid-19 Cases</h4>
+        </div>
+        <div class="result">
+
+          <div class="activeCases">
+            <h3>Active Cases</h3>
+            <div>
+              <label>0</label>
+            </div>
+          </div>
+
+          <div class="criticalCases">
+            <h3>Critical Cases</h3>
+            <div>
+              <label>0</label>
+            </div>
+          </div>
+
+          <div class="totalRecovered">
+            <h3>Total Recovered</h3>
+            <div>
+              <label>0</label>
+            </div>
+          </div>
+
+          <div class="totalDeaths">
+            <h3>Total Deaths</h3>
+            <div>
+              <label>0</label>
+            </div>
+          </div>
+
+          <div class="totalCases">
+            <h3>Total Cases</h3>
+            <div>
+              <label>0</label>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
-  </div>
-  <script src="main.js"></script>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>
+        This is a micro-project Created by <a href="http://github.com/i-am-Khael/Covid19Tracker-MicroProject">KHAEL</a> using Free Covid-19 API.
+      </p>
+    </div>
+  </footer>
+  
+  <script src="./assets/js/scripts.js"></script>
 </body>
 </html>
